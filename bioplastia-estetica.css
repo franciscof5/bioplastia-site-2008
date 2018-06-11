@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+/* RESETADOR */
+*{
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+body {
+	overflow:visible;
+	background:#FFF;
+	font-size:14px;
+}
+a:visited {
+	color:#000000;
+}
+a:hover{
+	color:#F1B7A3;
+}
+/*  */
+#page {
+	width:780px;
+	margin:auto;
+}
+
+/* CABEÇALHO */
+#header {
+	position:relative;
+}
+#header img{
+	float:left;
+	margin-right:-10px;
+}
+#header h1{
+	padding:4px 0 4px 80px;
+	background-color:#7e7b9a;
+	color:#F1B7A3;
+}
+#header h2{
+	background:#E2E2E8;
+	font-size:15px;
+	color:#7e7b9a;
+	padding-left:300px;
+}
+
+/* MENU */
+#menu {
+	background:#7e7b9a;
+	height:30px;
+	border-bottom-style:solid;
+	border-bottom-color:#F1B7A3;
+	border-bottom-width:2px;
+}
+#menu ul li{
+	float:left;
+	height:25px;
+	margin-left:5px;
+	padding-top:5px;
+}
+#menu ul li a{
+	height:25px;
+	color:#F1B7A3;
+	margin-top:5px;
+	padding:5px 10px 5px 0;
+	font-weight:bold;
+	font-size:14px;
+	background:url(porta.png) no-repeat right top;
+}
+#menu ul li a:hover{
+	color:#FFFFFF;
+}
+
+.porta_esquerda {
+	height:25px;
+	background:url(porta.png) no-repeat left top;
+	padding:5px 10px 5px 0;
+}
+
+/* LATERAL **/
+#lateral {
+	height:300px;
+	padding:5px;
+	background:url(lateral.png) no-repeat left top;
+	position:relative;
+	float:left;
+	width:70px;
+}
+#lateral-imagem {
+	height:300px;
+	position:relative;
+	float:right;
+	width:100px;
+	text-align:right;
+}
+
+/* CONTEUDO **/
+#content {
+	position:relative;
+	float:left;
+	width:600px;
+}
+#content h1{
+	margin:2px 0 5px 0;
+	color:#7e7b9a;
+	font-size:20px;
+}
+#content ul li {
+	margin-left:20px;
+	list-style:circle;
+}
+
+#item1, #item2, #item3, #item4, #item5, #item6 {
+	/*border:solid 2px #F1B7A3;
+	border-top-style:none;
+	border-bottom-style:none;
+	border-left-style:none;*/
+	padding:10px 50px 10px 10px;
+	text-align:justify;
+}
+
+
+/* CONTATO */
+#contact {
+	width:200px;
+	background-color:#00CC00;
+	top:50px;
+}
+#contact h1{
+	color:#7e7b9a;
+	font-size:16px;
+}
+#contact p {
+	font-size:12px;
+}
+
+/* RODAPÉ */
+#footer {
+	height:50px;
+	width:780px;
+	float:left;
+	position:relative;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	/*MARGEM NEGATIVA PARA NAO FICAR ABAIXO DA DOBRA DE PAGINA POG
+	margin-top:-100px;*/
+}
+#footer table{
+	margin:6px auto 15px auto;
+	vertical-align:middle;
+}
+#footer img {
+	border:0;
+}
+/**/
+.barra{
+	position:relative;
+	z-index:50;
+	width:10px;
+	height:1000px;
+	top:-1010px;
+}
+#barra-dir{
+	float:left;
+	background:url(barra-dir.png) repeat-y;
+}
+#barra-esq{
+	float:left;
+	margin-left:-790px;
+	background:url(barra-esq.png) repeat-y;
+}
